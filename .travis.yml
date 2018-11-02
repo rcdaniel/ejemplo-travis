@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-  - "7"
-  - "8"
-script:
-  npm run test
+- '7'
+- '8'
+script: npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: Z3vWeM1uABPCPZwvn/XQ64NgZclEqm9TmvbhnnyMG3CnylobcXVZBI9uL1mB1a7zjFJLzJ6ynAZ7QQry5whweNdPGBYgZ8M1PEq3HqMZ4e6pIPvejmQ1ymjcB5exbxWf8WyWgWsTWwpkPRQKskNJf+ZP4aWQTuZHzXkgdsz/G9f898VRkcb9+QPoQ8Pbi2Ud6nBbXyrD7XRAPYkEDnDwiNqFW5L8MN2MMKCgsp3H1H+Qfhz4Djdiiv6l1Jkxfg/PcDWQor24Oia0rPdDX4HlAPsIK7xF+ucHAduYOvKVKvkfj/0BwMjULDw7izG/HulwotVNhbZVK92vlf/7AGWMzoJbQy5tY2ETTTbUXPbWoIwtDScCcICvj5wtnpe6CGuKEaIw8wOifVSmkvDFYRbBzg6HqPMDurHm8PdAAvUdxojrogqzMHnKbo07k8tJq71UJhcFWyPXHNsYWZk2KjXlKiS2D0EaBN1eDakL5n1TDmdbulAGFrXSjZ/h2pf4DQTN+Yt6nCiSWeNVpTvi5pBBztE6jG6ELwA60ICMKSsAEgrYnM/Q/RdiJZMqdWezoylLuGP/9PUgo2IYcP0Z7GyGz87LgaoRk3cpDPSBuaoJ0FtRnJKeDqGsPJvOHKAH8rlNtndkG84UAkTRXqvaE2aZ8V4a+cZ0M+Ap7T1r0NnU0Cs=
