@@ -1,3 +1,3 @@
+language: nodejs
 script:
-  touch index.html
-  echo "Hola mundo" >> index.html
+  node index.html
